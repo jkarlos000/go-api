@@ -1,3 +1,5 @@
+# Configuracion de vscode
 /.vscode
 
-.exe
+# Ejecutables de windows
+*.exe
