@@ -4,7 +4,7 @@
         {
             "label": "Build and run",
             "type": "shell",
-            "command": "go build && ./d20",
+            "command": "go build && ./golang-rest-api.exe",
             "group": {
                 "kind": "build",
                 "isDefault": true
