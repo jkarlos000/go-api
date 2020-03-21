@@ -8,7 +8,7 @@ import (
 	"github.com/gorilla/mux"
 )
 
-func exmain() {
+func main() {
 	router := mux.NewRouter()
 	const port string = ":3600"
 	router.HandleFunc("/", func(resp http.ResponseWriter, req *http.Request) {
